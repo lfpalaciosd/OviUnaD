@@ -11,10 +11,16 @@ body{
 	background-size: cover;
 }
 
+h1{
+	font-family: Arial;
+	color: #B3B3B3;
+	margin-left: center;
+	font-size: 30px;
+	text-align: center;
 }
 h2{
 	font-family: Arial;
-	color: white;
+	color: #006680;
 	margin-left: center;
 	font-size: 40px;
 	text-align: center;
@@ -57,25 +63,26 @@ nav{
 	width: 995px;
 	height: 70px;
 	background: white;
-	font-weight: bolder;
 	border: solid;
 	border-color: #F2B80D;
-	border-radius: 10px;
+	border-radius: 25px;
 	border-top-right-radius: 0px;
 	border-top-left-radius: 0px;
+	font-family: Arial;
+	font-weight: bolder;
+	font-color: #006680
 }
 li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
 	margin: 4px;
-
 }
 
 a{
 	text-decoration: none;
 	font-size: 20px;
-	color: white;
+	color: #006680;
 	float: left;
 	margin-top: 20px;
 
