@@ -27,6 +27,13 @@ h3{
 	font-size: 25px;
 	text-align: left;
 }
+h5{
+	font-family: Arial;
+	color: black;
+	margin-left: 10px
+	font-size: 8px;
+	text-align: center;
+}
 p{
 	font-family: Arial;
 	color: black;
@@ -82,8 +89,8 @@ section{
 }
 aside{
 	width: 280px;
-	background: white;
-	height: 600px;
+	background: #006680;
+	height: 400px;
 	float: left;
 	text-align: justify;
 	margin-left: 20px;
@@ -106,5 +113,5 @@ footer{
 }
 image{
 	border-image: center
-	
+	margin justify
 }
