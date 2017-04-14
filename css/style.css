@@ -71,6 +71,7 @@ nav{
 	font-family: Arial;
 	font-weight: bolder;
 	font-color: #006680
+	margin-text: center;
 }
 li{
 	float: left;
