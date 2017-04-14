@@ -82,10 +82,10 @@ section{
 }
 aside{
 	width: 280px;
-	background: #006680;
+	background: white;
 	height: 600px;
 	float: left;
-	text-align: center;
+	text-align: justify;
 	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
