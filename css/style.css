@@ -38,7 +38,7 @@ h5{
 	color: #B3B3B3;
 	margin-left: 10px
 	font-size: 8px;
-	text-align: center;
+	text-align: center;	
 }
 p{
 	font-family: Arial;
@@ -49,7 +49,6 @@ p{
 	text-align: justify;
 	margin-left: 10px
 	margin-right: 10px;
-
 }
 
 header{
@@ -104,7 +103,7 @@ aside{
 	float: left;
 	text-align: justify;
 	margin-left: 20px;
-	margin-top: 20px;
+	margin-top: 120px;
 	border-radius: 10px;
 	border-top-right-radius: 0px;
 	border-top-left-radius: 0px;
