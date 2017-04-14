@@ -14,7 +14,7 @@ body{
 }
 h2{
 	font-family: Arial;
-	color: #F2B80D;
+	color: white;
 	margin-left: center;
 	font-size: 40px;
 	text-align: center;
@@ -75,12 +75,14 @@ li{
 a{
 	text-decoration: none;
 	font-size: 20px;
-	color: #006680;
+	color: white;
+	float: left;
+	margin-top: 20px;
 
 }
 section{
-	width: 700px;
-	height: 600px;
+	width: 600px;
+	height: 700px;
 	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -88,9 +90,9 @@ section{
 	border-top-left-radius: 0px;
 }
 aside{
-	width: 280px;
+	width: 380px;
 	background: #006680;
-	height: 400px;
+	height: 700px;
 	float: left;
 	text-align: justify;
 	margin-left: 20px;
