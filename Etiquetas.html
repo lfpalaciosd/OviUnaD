@@ -3,68 +3,70 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta content="Luis Fernando Palacios" name= "author">
-	<meta content="Sitio web OVI UNAD" name= "description">
-	<meta content="UNAD, Diseño web, html5" name="keywords">
-	<title>OVI Diseño Páginas web</title>
+	<meta content="Alexander Cárdenas" name="author">
+	<meta content="Sitio Web Unidad 2" name="description">
+	<meta content="UNAD, diseño web, html" name="keywords">
+	<title>OVI Diseño Web Con HTML-Etiquetas y Navegación</title>
 	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="fonts/style.css">
+	<script type="text/javascript" src="js/jquery-latest.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <body>
-	<div id="contenedor">
 		<header>
-			<img src="img/banner.png" alt="banner">
-		</header>
-		<nav>
-			<ul>
-				<li> <a href="index.html">Inicio</a> </li>
-				<li> <a href="Etiquetas.html">Etiquetas</a> </li>
-				<li> <a href="Atributos.html">Atributos</a> </li>
-				<li> <a href="Estructura.html">Estructura</a> </li>
-				<li> <a href="CSS y JS.html">CSS y JS</a> </li>
-				<li> <a href="Diseño.html">Diseño</a> </li>
-				<li> <a href="Autor.html">Autor</a> </li>
-			</ul>
-		</nav>
+     			<h2 class="titulo">OVI Diseño Web Con HTML5</h2>
+     			<img src="img/logoUNAD2.png">
 
-			</ul>
-		</nav>
+     			<nav class="menu">
+    	 	<ul>
+    	 		<li><a href="index.html">Inicio</a></li>
+    	 		<li><a href="">Lecturas<span><i class="icon icon-arrow-down"></i></span></a>
+                    <ul>
+                        <li><a href="estructura_html5.html">Estructura Básica de HTML5</a></li>
+                        <li><a href="estructura_html.html">Estructuras Básicas HTML</a></li>
+                        <li><a href="etiquetas.html">Etiquetas y Navegación</a></li>
+                        <li><a href="contenido.html">Contenido en HTML</a></li>
+                    </ul>
+                </li>
+    	 		<li><a href="">Multimedia<span><i class="icon icon-arrow-down"></i></span></a>
+    	 			<ul>
+                        <li><a href="Video_1.html">Video #1</a></li>
+                        <li><a href="video_2.html">Video #2</a></li>
+                        <li><a href="video_3.html">Video #3</a></li>
+                    </ul>
+                </li>
+    	 		
+    	 		<li><a href="">Actividades<span><i class="icon icon-arrow-down"></i></span></a>
+                    <ul>
+                        <li><a href="Actividad_1.html">Actividad #1</a></li>
+                        <li><a href="Actividad2_2.html">Actividad #2</a></li>
+                        <li><a href="Actividad_3.html">Actividad #3</a></li>
+                    </ul>
+                </li>
+    	 		<li><a href="Autores.html">Autores</a></li>
+    	 	</ul>
+    	 </nav>
+    	 </header>
+<div class="contenedor"><section>
+           <article>
+                <h2>Etiquetas y Navegación</h2>
+                
+            </article>
+           
+        </section>
 
-		<section>
-			<article>
-				<h1>¿Qué son las Etiquetas?</h1>
-				
-				<p>
-					Debido a que el lenguaje HTML es un lenguaje de marcas, las etiquetas son trozos o fragmentos de texto rodeados por corchetes angulares, que se utilizan para escribir el código HTML. Es decir, sirven para dar las instrucciones de programación. Cada una de ellas tiene una función y una semántica precisa. 
-				</p>
-				<p> El uso correcto de las etiquetas es fundamental para generar documentos estandarizados. Esto es fundamental para 		evitar problemas e incompatibilidades a la hora de acceder a los contenidos en los diferentes navegadores que hay en 	el mercado.
-				</p>
-				<p> A las etiquetas se las reconoce por los corchetes. Estos se forman con los símbolos “mayor que” y “menor que”, del 		teclado y suelen ir a pares: una de apertura y otra de cierre. La diferencia está en que la de cierre contiene una 		barra inclinada antes de la palabra: <"body">, </"body">.
-				</p>
-				<p>
-					Cabe anotar que algunas etiquetas no tienen su par de cierre. Es el caso de "br" y "img", debido a que su campo de acción es limitado y no se requiere sino invocar la etiqueta.
-				</p>
-			</article>
-		</section>		
-		<aside>
-			<iframe width="360" height="220" src="https://www.youtube.com/embed/av_PL4_jz1I?rel=0" frameborder="0" allowfullscreen>
-			</iframe>
-			<a href="Docs/manual_Etiquetas.pdf" download="manual_Etiquetas.pdf">
-				<h5>Descargar Manual de etiquetas HTML5</h5>
-			</a>
-		</aside>
-			
-		
-
-		<footer>
-			<h3>OVI diseñado por Luis Fernando Palacios Díaz</h3>
-		</footer>
-		
-	</div>
-
+        <aside>
+            
+        </aside>
+</div>
+    	 <footer class="footer">
+	<img src="img/logoUNADgrisInferior.png"><p>Todos los derechos reservados &copy; UNAD 2017. Desarrollado por Grupo 12</p>
+</footer>
 </body>
 
-<script src="js/modernizr.js" </script>
-<script src="js/prefixfree.js" </script>
+<script src="js/modernizr.js"></script>
+<script src="js/prefixfree.js"></script>
+
 
 </html>
