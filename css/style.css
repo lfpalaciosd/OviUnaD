@@ -137,3 +137,24 @@ float: left;
 padding-left: 90px;
 padding-top: 20px;
 }
+
+.Juegos{
+	width: 600px;
+	height: 600px;
+	float: center;
+	margin-top: 5px;
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	padding-left: 150px;
+}
+.espacio_Adicional{
+	width: 600px;
+	height: 140px;
+	float: center;
+	margin-top: 20px;
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	padding-left: 150px;
+}
