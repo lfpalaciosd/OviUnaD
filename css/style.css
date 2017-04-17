@@ -180,3 +180,14 @@ padding-top: 20px;
 	border-top-right-radius: 0px;
 	border-top-left-radius: 0px;
 }
+
+.section_contenido{
+	width: 600px;
+	height: 1500px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	padding-left: 130px;
+}
