@@ -168,3 +168,15 @@ padding-top: 20px;
 	border-top-left-radius: 0px;
 	padding-left: 150px;
 }
+.Foto_Autores{
+	width: 380px;
+	background: #ffffff;
+	height: 1200px;
+	float: right;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 30px;
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
